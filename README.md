@@ -11,9 +11,9 @@ Kerjakan kedua soal berikut secara berurutan. Pastikan semua langkah terdokument
 Membangun server VoIP sederhana menggunakan **Asterisk** pada sistem operasi **Ubuntu**, serta menguji koneksi antar extension menggunakan klien **Zoiper**.
 
 ### Langkah yang Harus Dilakukan
-1. Install dan konfigurasi Asterisk pada Ubuntu.
+1. Konfigurasi Asterisk pada Ubuntu.
 2. Tambahkan **user/extension** dengan ketentuan berikut:
-   - **Username:** Nama lengkap atau nama panggilan (sesuai kebijakan asisten)
+   - **Username:** Nama lengkap atau nama depan
    - **Extension (Nomor internal):** empat digit terakhir NIM (contoh: jika NIM = 607052300001, maka extension = `0001`)
 
 ### Kriteria Pengujian
@@ -32,29 +32,23 @@ Mendokumentasikan seluruh proses pengerjaan Soal 1 dan mengelola versi dokumenta
 
 ### Langkah yang Harus Dilakukan
 1. Buat dokumentasi teknis untuk **Soal 1**, mencakup:
-   - Langkah instalasi Asterisk
+   - Langkah konfigurasi Asterisk
    - Konfigurasi extension (nama & NIM)
    - Proses pengujian dengan Zoiper (sertakan tangkapan layar)
    - Kesimpulan atau kendala yang dihadapi
 
-2. Simpan dokumentasi tersebut dalam file **`README.md`** di root folder proyek.
+2. Lakukan [fork](https://github.com/ricalnet/ujikom-1-jartel/fork) terhadap repositori ini ke akun GitHub masing-masing.
+3. Simpan dokumentasi tersebut dalam file **`dokumentasi-nama-anda.md`** di root folder proyek.
 
-3. **Push** ke repositori yang telah ditentukan dengan [aturan branching berikut](https://github.com/ricalnet/ujikom-1-jartel/tree/nama-nim):
-   - Setiap peserta membuat **branch baru** dari branch utama (misal: `main` atau `master`).
+4. **Push** ke repositori dengan aturan branching berikut:
+   - Setiap praktikan membuat **branch baru** dari branch utama.
    - Format nama branch: `nama-nim`
      - Contoh: `naufal-0001`, `rical-0002`, `nasywa-0003`
+     ![alt text](img/image.png) 
 
 ### Tentang Git
 Git memungkinkan pelacakan perubahan dokumen secara kolaboratif. Dengan membuat branch terpisah (`nama-nim`), setiap peserta bekerja secara independen tanpa mengganggu pekerjaan orang lain. `README.md` adalah standar dokumentasi proyek di platform seperti GitHub/GitLab. 
 
 ---
-
-## Kriteria Penilaian
-| Aspek | Bobot |
-|-------|-------|
-| Keberhasilan konfigurasi Asterisk | |
-| Pengujian dengan Zoiper (registrasi & panggilan) | |
-| Kelengkapan dokumentasi di README.md | |
-| Manajemen branch dan push ke repositori | |
 
 **Selamat mengerjakan!**
