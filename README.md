@@ -44,6 +44,7 @@ Mendokumentasikan seluruh proses pengerjaan Soal 1 dan mengelola versi dokumenta
    - Setiap praktikan membuat **branch baru** dari branch utama.
    - Format nama branch: `nama-nim`
      - Contoh: `naufal-0001`, `rical-0002`, `nasywa-0003`
+
      ![alt text](img/image.png) 
 
 ### Tentang Git
