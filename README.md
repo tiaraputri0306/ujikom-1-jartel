@@ -39,7 +39,7 @@ Mendokumentasikan seluruh proses pengerjaan Soal 1 dan mengelola versi dokumenta
 
 2. Simpan dokumentasi tersebut dalam file **`README.md`** di root folder proyek.
 
-3. **Push** ke repositori yang telah ditentukan dengan aturan branching berikut:
+3. **Push** ke repositori yang telah ditentukan dengan [aturan branching berikut](https://github.com/ricalnet/ujikom-1-jartel/tree/nama-nim):
    - Setiap peserta membuat **branch baru** dari branch utama (misal: `main` atau `master`).
    - Format nama branch: `nama-nim`
      - Contoh: `naufal-0001`, `rical-0002`, `nasywa-0003`
